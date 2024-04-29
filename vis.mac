@@ -1,0 +1,14 @@
+# /vis/open OGL
+/vis/open VRML2FILE
+/vis/drawVolume
+/vis/viewer/set/style wireframe
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/axes
+/vis/scene/add/volume
+/vis/scene/add/hits
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
